@@ -4,7 +4,7 @@ endif()
 
 execute_process(
   COMMAND "/usr/bin/git" rev-list --max-count=1 HEAD
-  WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
+  WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
   RESULT_VARIABLE error_code
   OUTPUT_VARIABLE head_sha
   )
@@ -14,7 +14,7 @@ endif()
 
 execute_process(
   COMMAND "/usr/bin/git" show-ref master
-  WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
+  WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
   OUTPUT_VARIABLE show_ref_output
   )
 # If a remote ref is asked for, which can possibly move around,
@@ -29,7 +29,7 @@ endif()
 # yet).
 execute_process(
   COMMAND "/usr/bin/git" rev-list --max-count=1 master
-  WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
+  WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
   RESULT_VARIABLE error_code
   OUTPUT_VARIABLE tag_sha
   )
@@ -38,7 +38,7 @@ execute_process(
 if(error_code OR is_remote_ref OR NOT ("${tag_sha}" STREQUAL "${head_sha}"))
   execute_process(
     COMMAND "/usr/bin/git" fetch
-    WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
+    WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
     RESULT_VARIABLE error_code
     )
   if(error_code)
@@ -47,7 +47,7 @@ if(error_code OR is_remote_ref OR NOT ("${tag_sha}" STREQUAL "${head_sha}"))
 
   execute_process(
     COMMAND "/usr/bin/git" checkout master
-    WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
+    WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"
     RESULT_VARIABLE error_code
     )
   if(error_code)
@@ -56,11 +56,11 @@ if(error_code OR is_remote_ref OR NOT ("${tag_sha}" STREQUAL "${head_sha}"))
 
   execute_process(
     COMMAND "/usr/bin/git" submodule update --recursive
-    WORKING_DIRECTORY "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/"
+    WORKING_DIRECTORY "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/"
     RESULT_VARIABLE error_code
     )
   if(error_code)
-    message(FATAL_ERROR "Failed to update submodules in: '/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/'")
+    message(FATAL_ERROR "Failed to update submodules in: '/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/'")
   endif()
 endif()
 

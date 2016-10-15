@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/me212lab4/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/robot/me212lab3/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/me212lab4/catkin_ws/build
+CMAKE_BINARY_DIR = /home/robot/me212lab3/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include pr_apriltags/CMakeFiles/pr_apriltags.dir/depend.make
@@ -50,18 +50,18 @@ include pr_apriltags/CMakeFiles/pr_apriltags.dir/progress.make
 include pr_apriltags/CMakeFiles/pr_apriltags.dir/flags.make
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o: pr_apriltags/CMakeFiles/pr_apriltags.dir/flags.make
-pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o: /home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o: /home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o -c /home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o -c /home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp > CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp > CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.i
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp -o CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp -o CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.s
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o.requires:
 .PHONY : pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o.requires
@@ -79,95 +79,95 @@ pr_apriltags_OBJECTS = \
 # External object files for target pr_apriltags
 pr_apriltags_EXTERNAL_OBJECTS =
 
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/build.make
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libcv_bridge.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libimage_transport.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libmessage_filters.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libclass_loader.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/libPocoFoundation.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroslib.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroscpp.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/liblog4cxx.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librostime.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libcpp_common.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/libapriltags.so
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pr_apriltags.dir/link.txt --verbose=$(VERBOSE)
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/build.make
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libcv_bridge.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libimage_transport.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libmessage_filters.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libclass_loader.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/libPocoFoundation.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroslib.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroscpp.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/liblog4cxx.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/librostime.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /opt/ros/indigo/lib/libcpp_common.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/libapriltags.so
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags: pr_apriltags/CMakeFiles/pr_apriltags.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags"
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pr_apriltags.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-pr_apriltags/CMakeFiles/pr_apriltags.dir/build: /home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags
+pr_apriltags/CMakeFiles/pr_apriltags.dir/build: /home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags
 .PHONY : pr_apriltags/CMakeFiles/pr_apriltags.dir/build
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/requires: pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o.requires
 .PHONY : pr_apriltags/CMakeFiles/pr_apriltags.dir/requires
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/clean:
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags && $(CMAKE_COMMAND) -P CMakeFiles/pr_apriltags.dir/cmake_clean.cmake
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags && $(CMAKE_COMMAND) -P CMakeFiles/pr_apriltags.dir/cmake_clean.cmake
 .PHONY : pr_apriltags/CMakeFiles/pr_apriltags.dir/clean
 
 pr_apriltags/CMakeFiles/pr_apriltags.dir/depend:
-	cd /home/robot/me212lab4/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/me212lab4/catkin_ws/src /home/robot/me212lab4/catkin_ws/src/pr_apriltags /home/robot/me212lab4/catkin_ws/build /home/robot/me212lab4/catkin_ws/build/pr_apriltags /home/robot/me212lab4/catkin_ws/build/pr_apriltags/CMakeFiles/pr_apriltags.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robot/me212lab3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/me212lab3/catkin_ws/src /home/robot/me212lab3/catkin_ws/src/pr_apriltags /home/robot/me212lab3/catkin_ws/build /home/robot/me212lab3/catkin_ws/build/pr_apriltags /home/robot/me212lab3/catkin_ws/build/pr_apriltags/CMakeFiles/pr_apriltags.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pr_apriltags/CMakeFiles/pr_apriltags.dir/depend
 

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp" "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o"
+  "/home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp" "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/CMakeFiles/pr_apriltags.dir/src/apriltags.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,9 +21,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/robot/me212lab4/catkin_ws/devel/include"
+  "/home/robot/me212lab3/catkin_ws/devel/include"
   "/usr/include/opencv"
-  "/home/robot/me212lab4/catkin_ws/src/pr_apriltags/include"
+  "/home/robot/me212lab3/catkin_ws/src/pr_apriltags/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL"

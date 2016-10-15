@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot/me212lab4/catkin_ws/devel/include/pr_apriltags/AprilTagDetection.h
+/home/robot/me212lab3/catkin_ws/devel/include/pr_apriltags/AprilTagDetection.h
 string
 -
 vector
@@ -28,7 +28,7 @@ geometry_msgs/Point32.h
 geometry_msgs/Pose.h
 -
 
-/home/robot/me212lab4/catkin_ws/devel/include/pr_apriltags/AprilTagDetections.h
+/home/robot/me212lab3/catkin_ws/devel/include/pr_apriltags/AprilTagDetections.h
 string
 -
 vector
@@ -48,9 +48,9 @@ std_msgs/Header.h
 pr_apriltags/AprilTagDetection.h
 -
 
-/home/robot/me212lab4/catkin_ws/src/pr_apriltags/include/apriltags.h
+/home/robot/me212lab3/catkin_ws/src/pr_apriltags/include/apriltags.h
 
-/home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.cpp
+/home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.cpp
 ros/ros.h
 -
 ros/forwards.h
@@ -82,7 +82,7 @@ Eigen/Geometry
 visualization_msgs/MarkerArray.h
 -
 yaml-cpp/yaml.h
-/home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/yaml-cpp/yaml.h
+/home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/yaml-cpp/yaml.h
 sstream
 -
 fstream
@@ -94,7 +94,7 @@ boost/unordered_map.hpp
 boost/make_shared.hpp
 -
 apriltags.h
-/home/robot/me212lab4/catkin_ws/src/pr_apriltags/src/apriltags.h
+/home/robot/me212lab3/catkin_ws/src/pr_apriltags/src/apriltags.h
 pr_apriltags/AprilTagDetections.h
 -
 

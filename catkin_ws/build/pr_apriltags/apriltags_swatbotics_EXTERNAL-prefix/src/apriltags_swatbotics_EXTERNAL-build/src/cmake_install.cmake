@@ -1,4 +1,4 @@
-# Install script for directory: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src
+# Install script for directory: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

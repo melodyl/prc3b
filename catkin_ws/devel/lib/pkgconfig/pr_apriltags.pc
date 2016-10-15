@@ -1,8 +1,8 @@
-prefix=/home/robot/me212lab4/catkin_ws/devel
+prefix=/home/robot/me212lab3/catkin_ws/devel
 
 Name: pr_apriltags
 Description: Description of pr_apriltags
 Version: 0.0.2
-Cflags: -I/home/robot/me212lab4/catkin_ws/devel/include -I/home/robot/me212lab4/catkin_ws/src/pr_apriltags/include
-Libs: -L/home/robot/me212lab4/catkin_ws/devel/lib 
+Cflags: -I/home/robot/me212lab3/catkin_ws/devel/include -I/home/robot/me212lab3/catkin_ws/src/pr_apriltags/include
+Libs: -L/home/robot/me212lab3/catkin_ws/devel/lib 
 Requires: cv_bridge std_msgs sensor_msgs image_transport roscpp geometry_msgs

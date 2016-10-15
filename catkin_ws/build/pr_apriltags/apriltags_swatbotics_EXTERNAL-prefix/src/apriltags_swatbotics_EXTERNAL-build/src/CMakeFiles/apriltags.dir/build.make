@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL
+CMAKE_SOURCE_DIR = /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build
+CMAKE_BINARY_DIR = /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/apriltags.dir/depend.make
@@ -50,18 +50,18 @@ include src/CMakeFiles/apriltags.dir/progress.make
 include src/CMakeFiles/apriltags.dir/flags.make
 
 src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_1)
+src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/CameraUtil.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/CameraUtil.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp
 
 src/CMakeFiles/apriltags.dir/CameraUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/CameraUtil.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp > CMakeFiles/apriltags.dir/CameraUtil.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp > CMakeFiles/apriltags.dir/CameraUtil.cpp.i
 
 src/CMakeFiles/apriltags.dir/CameraUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/CameraUtil.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp -o CMakeFiles/apriltags.dir/CameraUtil.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/CameraUtil.cpp -o CMakeFiles/apriltags.dir/CameraUtil.cpp.s
 
 src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o.requires
@@ -73,18 +73,18 @@ src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o.provides: src/CMakeFiles/apriltags
 src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/CameraUtil.cpp.o
 
 src/CMakeFiles/apriltags.dir/DebugImage.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/DebugImage.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_2)
+src/CMakeFiles/apriltags.dir/DebugImage.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/DebugImage.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/DebugImage.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/DebugImage.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp
 
 src/CMakeFiles/apriltags.dir/DebugImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/DebugImage.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp > CMakeFiles/apriltags.dir/DebugImage.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp > CMakeFiles/apriltags.dir/DebugImage.cpp.i
 
 src/CMakeFiles/apriltags.dir/DebugImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/DebugImage.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp -o CMakeFiles/apriltags.dir/DebugImage.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/DebugImage.cpp -o CMakeFiles/apriltags.dir/DebugImage.cpp.s
 
 src/CMakeFiles/apriltags.dir/DebugImage.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/DebugImage.cpp.o.requires
@@ -96,18 +96,18 @@ src/CMakeFiles/apriltags.dir/DebugImage.cpp.o.provides: src/CMakeFiles/apriltags
 src/CMakeFiles/apriltags.dir/DebugImage.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/DebugImage.cpp.o
 
 src/CMakeFiles/apriltags.dir/Geometry.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/Geometry.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_3)
+src/CMakeFiles/apriltags.dir/Geometry.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/Geometry.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/Geometry.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/Geometry.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp
 
 src/CMakeFiles/apriltags.dir/Geometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/Geometry.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp > CMakeFiles/apriltags.dir/Geometry.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp > CMakeFiles/apriltags.dir/Geometry.cpp.i
 
 src/CMakeFiles/apriltags.dir/Geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/Geometry.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp -o CMakeFiles/apriltags.dir/Geometry.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Geometry.cpp -o CMakeFiles/apriltags.dir/Geometry.cpp.s
 
 src/CMakeFiles/apriltags.dir/Geometry.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/Geometry.cpp.o.requires
@@ -119,18 +119,18 @@ src/CMakeFiles/apriltags.dir/Geometry.cpp.o.provides: src/CMakeFiles/apriltags.d
 src/CMakeFiles/apriltags.dir/Geometry.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/Geometry.cpp.o
 
 src/CMakeFiles/apriltags.dir/GrayModel.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/GrayModel.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_4)
+src/CMakeFiles/apriltags.dir/GrayModel.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/GrayModel.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/GrayModel.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/GrayModel.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp
 
 src/CMakeFiles/apriltags.dir/GrayModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/GrayModel.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp > CMakeFiles/apriltags.dir/GrayModel.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp > CMakeFiles/apriltags.dir/GrayModel.cpp.i
 
 src/CMakeFiles/apriltags.dir/GrayModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/GrayModel.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp -o CMakeFiles/apriltags.dir/GrayModel.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/GrayModel.cpp -o CMakeFiles/apriltags.dir/GrayModel.cpp.s
 
 src/CMakeFiles/apriltags.dir/GrayModel.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/GrayModel.cpp.o.requires
@@ -142,18 +142,18 @@ src/CMakeFiles/apriltags.dir/GrayModel.cpp.o.provides: src/CMakeFiles/apriltags.
 src/CMakeFiles/apriltags.dir/GrayModel.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/GrayModel.cpp.o
 
 src/CMakeFiles/apriltags.dir/MathUtil.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/MathUtil.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_5)
+src/CMakeFiles/apriltags.dir/MathUtil.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/MathUtil.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/MathUtil.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/MathUtil.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp
 
 src/CMakeFiles/apriltags.dir/MathUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/MathUtil.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp > CMakeFiles/apriltags.dir/MathUtil.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp > CMakeFiles/apriltags.dir/MathUtil.cpp.i
 
 src/CMakeFiles/apriltags.dir/MathUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/MathUtil.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp -o CMakeFiles/apriltags.dir/MathUtil.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/MathUtil.cpp -o CMakeFiles/apriltags.dir/MathUtil.cpp.s
 
 src/CMakeFiles/apriltags.dir/MathUtil.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/MathUtil.cpp.o.requires
@@ -165,18 +165,18 @@ src/CMakeFiles/apriltags.dir/MathUtil.cpp.o.provides: src/CMakeFiles/apriltags.d
 src/CMakeFiles/apriltags.dir/MathUtil.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/MathUtil.cpp.o
 
 src/CMakeFiles/apriltags.dir/Refine.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/Refine.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_6)
+src/CMakeFiles/apriltags.dir/Refine.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/Refine.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/Refine.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/Refine.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp
 
 src/CMakeFiles/apriltags.dir/Refine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/Refine.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp > CMakeFiles/apriltags.dir/Refine.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp > CMakeFiles/apriltags.dir/Refine.cpp.i
 
 src/CMakeFiles/apriltags.dir/Refine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/Refine.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp -o CMakeFiles/apriltags.dir/Refine.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/Refine.cpp -o CMakeFiles/apriltags.dir/Refine.cpp.s
 
 src/CMakeFiles/apriltags.dir/Refine.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/Refine.cpp.o.requires
@@ -188,18 +188,18 @@ src/CMakeFiles/apriltags.dir/Refine.cpp.o.provides: src/CMakeFiles/apriltags.dir
 src/CMakeFiles/apriltags.dir/Refine.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/Refine.cpp.o
 
 src/CMakeFiles/apriltags.dir/TagDetector.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/TagDetector.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_7)
+src/CMakeFiles/apriltags.dir/TagDetector.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/TagDetector.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagDetector.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagDetector.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp
 
 src/CMakeFiles/apriltags.dir/TagDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/TagDetector.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp > CMakeFiles/apriltags.dir/TagDetector.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp > CMakeFiles/apriltags.dir/TagDetector.cpp.i
 
 src/CMakeFiles/apriltags.dir/TagDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/TagDetector.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp -o CMakeFiles/apriltags.dir/TagDetector.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagDetector.cpp -o CMakeFiles/apriltags.dir/TagDetector.cpp.s
 
 src/CMakeFiles/apriltags.dir/TagDetector.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/TagDetector.cpp.o.requires
@@ -211,18 +211,18 @@ src/CMakeFiles/apriltags.dir/TagDetector.cpp.o.provides: src/CMakeFiles/apriltag
 src/CMakeFiles/apriltags.dir/TagDetector.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/TagDetector.cpp.o
 
 src/CMakeFiles/apriltags.dir/TagFamily.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/TagFamily.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_8)
+src/CMakeFiles/apriltags.dir/TagFamily.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/TagFamily.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagFamily.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagFamily.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp
 
 src/CMakeFiles/apriltags.dir/TagFamily.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/TagFamily.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp > CMakeFiles/apriltags.dir/TagFamily.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp > CMakeFiles/apriltags.dir/TagFamily.cpp.i
 
 src/CMakeFiles/apriltags.dir/TagFamily.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/TagFamily.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp -o CMakeFiles/apriltags.dir/TagFamily.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamily.cpp -o CMakeFiles/apriltags.dir/TagFamily.cpp.s
 
 src/CMakeFiles/apriltags.dir/TagFamily.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/TagFamily.cpp.o.requires
@@ -234,18 +234,18 @@ src/CMakeFiles/apriltags.dir/TagFamily.cpp.o.provides: src/CMakeFiles/apriltags.
 src/CMakeFiles/apriltags.dir/TagFamily.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/TagFamily.cpp.o
 
 src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_9)
+src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagFamilies.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/TagFamilies.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp
 
 src/CMakeFiles/apriltags.dir/TagFamilies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/TagFamilies.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp > CMakeFiles/apriltags.dir/TagFamilies.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp > CMakeFiles/apriltags.dir/TagFamilies.cpp.i
 
 src/CMakeFiles/apriltags.dir/TagFamilies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/TagFamilies.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp -o CMakeFiles/apriltags.dir/TagFamilies.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/TagFamilies.cpp -o CMakeFiles/apriltags.dir/TagFamilies.cpp.s
 
 src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o.requires
@@ -257,18 +257,18 @@ src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o.provides: src/CMakeFiles/apriltag
 src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o.provides.build: src/CMakeFiles/apriltags.dir/TagFamilies.cpp.o
 
 src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o: src/CMakeFiles/apriltags.dir/flags.make
-src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o: /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_10)
+src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o: /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o -c /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o -c /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp
 
 src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags.dir/UnionFindSimple.cpp.i"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp > CMakeFiles/apriltags.dir/UnionFindSimple.cpp.i
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp > CMakeFiles/apriltags.dir/UnionFindSimple.cpp.i
 
 src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags.dir/UnionFindSimple.cpp.s"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp -o CMakeFiles/apriltags.dir/UnionFindSimple.cpp.s
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src/UnionFindSimple.cpp -o CMakeFiles/apriltags.dir/UnionFindSimple.cpp.s
 
 src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o.requires:
 .PHONY : src/CMakeFiles/apriltags.dir/UnionFindSimple.cpp.o.requires
@@ -332,7 +332,7 @@ libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so
 libapriltags.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so
 libapriltags.so: src/CMakeFiles/apriltags.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../libapriltags.so"
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/apriltags.dir/build: libapriltags.so
@@ -351,10 +351,10 @@ src/CMakeFiles/apriltags.dir/requires: src/CMakeFiles/apriltags.dir/UnionFindSim
 .PHONY : src/CMakeFiles/apriltags.dir/requires
 
 src/CMakeFiles/apriltags.dir/clean:
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && $(CMAKE_COMMAND) -P CMakeFiles/apriltags.dir/cmake_clean.cmake
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src && $(CMAKE_COMMAND) -P CMakeFiles/apriltags.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/apriltags.dir/clean
 
 src/CMakeFiles/apriltags.dir/depend:
-	cd /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src /home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src/CMakeFiles/apriltags.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL/src /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src /home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/src/CMakeFiles/apriltags.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/apriltags.dir/depend
 

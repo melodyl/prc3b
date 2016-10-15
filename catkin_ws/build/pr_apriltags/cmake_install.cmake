@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot/me212lab4/catkin_ws/src/pr_apriltags
+# Install script for directory: /home/robot/me212lab3/catkin_ws/src/pr_apriltags
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/robot/me212lab4/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/robot/me212lab3/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,48 +34,48 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/msg" TYPE FILE FILES
-    "/home/robot/me212lab4/catkin_ws/src/pr_apriltags/msg/AprilTagDetection.msg"
-    "/home/robot/me212lab4/catkin_ws/src/pr_apriltags/msg/AprilTagDetections.msg"
+    "/home/robot/me212lab3/catkin_ws/src/pr_apriltags/msg/AprilTagDetection.msg"
+    "/home/robot/me212lab3/catkin_ws/src/pr_apriltags/msg/AprilTagDetections.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/cmake" TYPE FILE FILES "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/cmake" TYPE FILE FILES "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robot/me212lab4/catkin_ws/devel/include/pr_apriltags")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robot/me212lab3/catkin_ws/devel/include/pr_apriltags")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robot/me212lab4/catkin_ws/devel/share/common-lisp/ros/pr_apriltags")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robot/me212lab3/catkin_ws/devel/share/common-lisp/ros/pr_apriltags")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robot/me212lab4/catkin_ws/devel/lib/python2.7/dist-packages/pr_apriltags")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robot/me212lab3/catkin_ws/devel/lib/python2.7/dist-packages/pr_apriltags")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/robot/me212lab4/catkin_ws/devel/lib/python2.7/dist-packages/pr_apriltags")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/robot/me212lab3/catkin_ws/devel/lib/python2.7/dist-packages/pr_apriltags")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/cmake" TYPE FILE FILES "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/cmake" TYPE FILE FILES "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltags-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags/cmake" TYPE FILE FILES
-    "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltagsConfig.cmake"
-    "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltagsConfig-version.cmake"
+    "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltagsConfig.cmake"
+    "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/catkin_generated/installspace/pr_apriltagsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags" TYPE FILE FILES "/home/robot/me212lab4/catkin_ws/src/pr_apriltags/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr_apriltags" TYPE FILE FILES "/home/robot/me212lab3/catkin_ws/src/pr_apriltags/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -85,7 +85,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pr_apriltags/pr_apriltags"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pr_apriltags" TYPE EXECUTABLE FILES "/home/robot/me212lab4/catkin_ws/devel/lib/pr_apriltags/pr_apriltags")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pr_apriltags" TYPE EXECUTABLE FILES "/home/robot/me212lab3/catkin_ws/devel/lib/pr_apriltags/pr_apriltags")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pr_apriltags/pr_apriltags" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pr_apriltags/pr_apriltags")
     FILE(RPATH_REMOVE
@@ -97,6 +97,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/robot/me212lab4/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/libapriltags.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/robot/me212lab3/catkin_ws/build/pr_apriltags/apriltags_swatbotics_EXTERNAL-prefix/src/apriltags_swatbotics_EXTERNAL-build/libapriltags.so")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

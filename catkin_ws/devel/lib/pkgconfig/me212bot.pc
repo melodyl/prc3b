@@ -1,8 +1,8 @@
-prefix=/home/robot/me212lab4/catkin_ws/devel
+prefix=/home/robot/me212lab3/catkin_ws/devel
 
 Name: me212bot
 Description: Description of me212bot
 Version: 0.0.0
-Cflags: 
-Libs: -L/home/robot/me212lab4/catkin_ws/devel/lib 
+Cflags: -I/home/robot/me212lab3/catkin_ws/devel/include
+Libs: -L/home/robot/me212lab3/catkin_ws/devel/lib 
 Requires: 
