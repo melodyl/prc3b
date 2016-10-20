@@ -27,8 +27,10 @@ def main():
     constant_vel = True
     if constant_vel:
         thread = threading.Thread(target = constant_vel_loop)
-    else:
+    elif:
         thread = threading.Thread(target = navi_loop)
+    else:
+        thread = threading.Thread(target = localize)
     thread.start()
     
     rospy.spin()
@@ -59,6 +61,18 @@ def apriltag_callback(data):
             pubFrame(br, pose = poselist_base_map, frame_id = '/robot_base', parent_frame_id = '/map')
 
 
+def localize():
+    rate = rospy.Rate(100) # 100hz
+    while not rospy.is_shutdown() :
+        # 1. get robot pose
+        robot_pose3d = lookupTransform(lr, '/map', '/robot_base')
+        if robot_pose3d is None:
+            print '1. Tag not in view'
+            
+        robot_position2d  = robot_pose3d[0:2]
+        robot_yaw    = tfm.euler_from_quaternion(robot_pose3d[3:7]) [2]
+        robot_pose2d = robot_position2d + [robot_yaw]
+            
 ## navigation control loop (No need to modify)
 def navi_loop():
     velcmd_pub = rospy.Publisher("/cmdvel", WheelCmdVel, queue_size = 1)
